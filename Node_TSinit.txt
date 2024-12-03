@@ -1,0 +1,18 @@
+Navigate to your project folder:
+cd path/to/your/project
+
+Initialize a new Node.js project:
+npm init -y
+
+Install TypeScript locally in the project:
+npm install typescript --save-dev
+
+Create a tsconfig.json file to configure TypeScript:
+npx tsc --init
+
+Compile your TypeScript file:
+npx tsc Day1.ts
+
+Run the compiled JavaScript file:
+node Day1.js
+
